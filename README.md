@@ -115,10 +115,9 @@ ORDER BY cancel_year ASC
 
 
 **Business Recommendations:**
-Since most users have selected Expensive and Not Useful as the reasons to cancel, we should roll out better onboarding and provide more help early on in their subscription to ensure users are understanding the product and finding it useful. If they find the product more useful and valuable, they also may become less cost-sensitive to the value.
-##For cost conscious users, we could also launch a rescue tactic at the beginning of the cancellation workflow that offers them a large discount to stay and not cancel their subscription.
-##Since the most common cancellation reason for the secondary reason is Went to Competitor, we should research the market and ensure we're keeping up to date with industry trends.
-Add your own here too!
+1. Since most users have selected Expensive and Not Useful as the reasons to cancel, we should roll out better onboarding and provide more help early on in their subscription to ensure users are understanding the product and finding it useful. If they find the product more useful and valuable, they also may become less cost-sensitive to the value.
+2. For cost conscious users, we could also launch a rescue tactic at the beginning of the cancellation workflow that offers them a large discount to stay and not cancel their subscription.
+Since the most common cancellation reason for the secondary reason is "Went to Competitor", we should research the market and ensure we're keeping up to date with industry trends.
 
 **Next Steps:**
 Explore the engagement of canceled subscriptions and see how they interacted with the product. 
