@@ -15,14 +15,14 @@ Company leadership has noticed a big churn problem this year which has had a lar
 
 
 **Skills:**
-Data Visualization
-Data Wrangling
-Data Cleaning
-Data Science Notebook
-Snowflake Data warehouse
-Power BI
-SQL – CTEs, CASE, Union, View creation
-SQL Code used:
+* Data Visualization
+* Data Wrangling
+* Data Cleaning
+* Data Science Notebook (HEX)
+* Snowflake Data warehouse
+* Power BI
+SQL – CTEs, CASE, Window function, Union, View creation
+* SQL Code used:
 
 Wanted to figure out the relation between number of subscriptions per cancelation reason
 ```sql
