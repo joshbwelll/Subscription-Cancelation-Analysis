@@ -111,7 +111,7 @@ ORDER BY cancel_year ASC
 
 
 **Results & Business Recommendation:**
-[embed]BDE_Visuals.pdf[/embed]
+[embed]https://github.com/joshbwelll/Subscription-Cancelation-Analysis/blob/main/BDE_Visuals.pdf[/embed]
 
 
 **Business Recommendations:**
