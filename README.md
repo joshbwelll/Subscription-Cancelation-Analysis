@@ -111,7 +111,7 @@ ORDER BY cancel_year ASC
 
 
 **Results & Business Recommendation:**
-
+[Subscription Cancelation Analysis Report](BDE_Visuals.pdf)
 
 
 **Business Recommendations:**
