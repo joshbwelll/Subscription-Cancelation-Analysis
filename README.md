@@ -1,7 +1,7 @@
 # Subscription-Cancelation-Analysis
 
 **Executive Summary:**
-##This is a project that was primarily completed in HEX. Facing a significant churn issue and major revenue loss, the company leadership wants deeper insights into the reasons behind subscription cancellations to inform future retention efforts. This analysis utilizing SQL and Power BI uses user-reported cancellation reasons to identify trends and provide business recommendations to support future retention.
+This is a project that was primarily completed in HEX. Facing a significant churn issue and major revenue loss, the company leadership wants deeper insights into the reasons behind subscription cancellations to inform future retention efforts. This analysis utilizing SQL and Power BI uses user-reported cancellation reasons to identify trends and provide business recommendations to support future retention.
 
 
 **Business Problem:**
