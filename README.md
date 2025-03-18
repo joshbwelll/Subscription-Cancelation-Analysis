@@ -5,8 +5,9 @@ This is a project that was primarily completed in HEX. Facing a significant chur
 
 
 **Business Problem:**
-Company leadership has noticed a big churn problem this year which has had a large negative impact to revenue, so they're planning a company-wide retention effort. However, we don't currently have any insights or reporting into why people are churning, so the analytics team has decided to analyze the user-reported data collected in the cancelation workflow within the product to see if there are any trends as to why users are cancelling. **Cancelation Workflow:**
-![image](https://github.com/user-attachments/assets/5a375eaa-20b9-44e2-a6cc-05e0bae033a4)
+Company leadership has noticed a big churn problem this year which has had a large negative impact to revenue, so they're planning a company-wide retention effort. However, we don't currently have any insights or reporting into why people are churning, so the analytics team has decided to analyze the user-reported data collected in the cancelation workflow within the product to see if there are any trends as to why users are cancelling.
+![image](https://github.com/user-attachments/assets/3c2aae43-3ad4-40d0-8f80-eda5e9666de6)
+
 
 
 **Methodology:**
