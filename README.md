@@ -18,7 +18,7 @@ Company leadership has noticed a big churn problem this year which has had a lar
 
 **Skills:**
 * Data Visualization
-*     Power BI
+    * Power BI
 * Data Wrangling
 * Data Cleaning
 * Data Science Notebook (HEX)
