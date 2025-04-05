@@ -111,10 +111,12 @@ ORDER BY cancel_year ASC
 
 
 
+
 **Results & Business Recommendation:**
 
 
-**Results**
+
+**Results:**
 
 ![image](https://github.com/user-attachments/assets/f6096c42-64e8-47f2-b289-cc31530afcc2)
 
