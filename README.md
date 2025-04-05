@@ -18,15 +18,15 @@ Company leadership has noticed a big churn problem this year which has had a lar
 
 **Skills:**
 * Data Visualization
+*     Power BI
 * Data Wrangling
 * Data Cleaning
 * Data Science Notebook (HEX)
 * Snowflake Data warehouse
-* Power BI
 * SQL – CTEs, CASE, Window function, Union, View creation
 * SQL Code used:
 
-Wanted to figure out the relation between number of subscriptions per cancelation reason
+Relation between number of subscriptions per cancelation reason
 ```sql
 with reasons as (SELECT
     subscription_id,
@@ -91,7 +91,7 @@ FROM public.cancelations
 ```
 
 
-To produce the data behind a line chart for % Reason by year. If there was more data avalible month would be used (project data)
+To produce the data behind a line chart for % Reason by year. If there was more data avalible month would be used
 ```sql
 with yearly as (SELECT
     date_trunc('year', cancel_date::date) as cancel_year,
