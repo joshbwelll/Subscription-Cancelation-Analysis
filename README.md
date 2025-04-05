@@ -1,17 +1,16 @@
-# Subscription-Cancelation-Analysis
+# Subscription-Cancelation-Analysis-for-SaaS-Company
 
 **Executive Summary:**
-This is a project that was primarily completed in HEX. Facing a significant churn issue and major revenue loss, the company leadership wants deeper insights into the reasons behind subscription cancellations to inform future retention efforts. This analysis utilizing SQL and Power BI uses user-reported cancellation reasons to identify trends and provide business recommendations to support future retention.
-
+This project focuses on analyzing subscription cancellations for a SaaS company, leveraging SQL and Power BI to uncover key trends from user-reported cancellation reasons. Facing significant churn and revenue loss, company leadership seeks deeper insights into why customers are leaving to inform future retention strategies. This analysis identifies primary and secondary reasons for cancellations and provides actionable recommendations to improve customer retention.
 
 **Business Problem:**
-Company leadership has noticed a big churn problem this year which has had a large negative impact to revenue, so they're planning a company-wide retention effort. However, we don't currently have any insights or reporting into why people are churning, so the analytics team has decided to analyze the user-reported data collected in the cancelation workflow within the product to see if there are any trends as to why users are cancelling.
+The company has experienced a substantial increase in churn this year, negatively impacting revenue. As part of a company-wide retention initiative, leadership needs to understand why users are canceling their subscriptions. Currently, there is no detailed reporting on cancellation reasons, so the analytics team has analyzed user-reported data from the cancellation workflow within the product. The goal is to identify key trends and provide data-driven insights to enhance retention strategies.
 ![image](https://github.com/user-attachments/assets/3c2aae43-3ad4-40d0-8f80-eda5e9666de6)
 
 
 
 **Methodology:**
-1. EDA - looking for patterns between the three cancelation reasons
+1. EDA: Patterns between cancelation reasons
 2. Product Funnel Analysis
 3. Data Visualization (Power BI)
 
@@ -28,7 +27,7 @@ Company leadership has noticed a big churn problem this year which has had a lar
 
 Relation between number of subscriptions per cancelation reason
 ```sql
-with reasons as (SELECT
+WITH reasons as (SELECT
     subscription_id,
     cancelation_reason1 as cancelation_reason,
     'reason 1' as reason_type
@@ -93,7 +92,7 @@ FROM public.cancelations
 
 To produce the data behind a line chart for % Reason by year. If there was more data avalible month would be used
 ```sql
-with yearly as (SELECT
+WITH yearly as (SELECT
     date_trunc('year', cancel_date::date) as cancel_year,
     cancelation_reason,
     count(*) as num_reason
@@ -118,13 +117,16 @@ ORDER BY cancel_year ASC
 
 
 **Business Recommendations:**
-1. Since most users have selected Expensive and Not Useful as the reasons to cancel, we should roll out better onboarding and provide more help early on in their subscription to ensure users are understanding the product and finding it useful. If they find the product more useful and valuable, they also may become less cost-sensitive to the value.
-2. For cost conscious users, we could also launch a rescue tactic at the beginning of the cancellation workflow that offers them a large discount to stay and not cancel their subscription.
-Since the most common cancellation reason for the secondary reason is "Went to Competitor", we should research the market and ensure we're keeping up to date with industry trends.
+1. Improve Onboarding & Product Education: Since the most common cancellation reasons are "Expensive" and "Not Useful," we should enhance user onboarding and provide better educational resources early in the subscription lifecycle. Ensuring users fully understand and utilize the product's value could reduce price sensitivity and increase engagement.
+2. Implement Targeted Retention Offers: For cost-conscious users, we should introduce a retention offer at the beginning of the cancellation process, such as a limited-time discount or extended trial period, to incentivize them to stay.
+3. Competitor Analysis & Market Adaptation: As a significant number of users cite "Switched to Competitor" as a secondary cancellation reason, we should conduct market research to stay competitive, ensuring our product and pricing remain aligned with industry standards.
+
 
 **Next Steps:**
-Explore the engagement of canceled subscriptions and see how they interacted with the product. 
-What features did they or did they not use?
-How often did they use the product? 
-What if we compare them to non-cancelled subscriptions. Does anything stand out that could inform future retention efforts?
-Work with the product manager to either understand how we can improve the cancelation workflow by adding in rescue tactics and adding friction without increasing user frustration. Otherwise work with the product manager to explore a reduced cancellation workflow.
+* Explore the engagement of canceled subscriptions and see how they interacted with the product. 
+   * What features did they or did they not use? How often did they use the product? 
+   * What if we compare them to non-cancelled subscriptions. Does anything stand out that could inform future retention efforts?
+* Work with the product manager to either understand how we can improve the cancelation workflow by adding in rescue tactics and adding friction without increasing user frustration. Otherwise work with the product manager to explore a reduced cancellation workflow.
+* Develop and implement an enhanced onboarding process with guided tutorials and personalized support.
+* Test and evaluate discount-based retention offers to measure effectiveness in reducing churn.
+* Conduct a competitive analysis to assess market trends, pricing, and feature gaps.
