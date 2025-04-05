@@ -1,12 +1,12 @@
 # Subscription-Cancelation-Analysis-for-SaaS-Company
 
 **Executive Summary:**
-This project focuses on analyzing subscription cancellations for a SaaS company, leveraging SQL and Power BI to uncover key trends from user-reported cancellation reasons. Facing significant churn and revenue loss, company leadership seeks deeper insights into why customers are leaving to inform future retention strategies. This analysis identifies primary and secondary reasons for cancellations and provides actionable recommendations to improve customer retention.
+This project focuses on analyzing subscription cancellations for a SaaS company. By leveraging SQL and Power BI I uncover key trends from user-reported cancellation reasons. Facing significant churn and revenue loss, company leadership seeks deeper insights into why customers are leaving to inform future retention strategies. This analysis identifies primary and secondary reasons for cancellations and provides actionable recommendations to improve customer retention.
 
 **Business Problem:**
 The company has experienced a substantial increase in churn this year, negatively impacting revenue. As part of a company-wide retention initiative, leadership needs to understand why users are canceling their subscriptions. Currently, there is no detailed reporting on cancellation reasons, so the analytics team has analyzed user-reported data from the cancellation workflow within the product. The goal is to identify key trends and provide data-driven insights to enhance retention strategies.
-![image](https://github.com/user-attachments/assets/3c2aae43-3ad4-40d0-8f80-eda5e9666de6)
 
+![image](https://github.com/user-attachments/assets/3c2aae43-3ad4-40d0-8f80-eda5e9666de6)
 
 
 **Methodology:**
@@ -112,6 +112,10 @@ ORDER BY cancel_year ASC
 
 
 **Results & Business Recommendation:**
+
+
+**Results**
+
 ![image](https://github.com/user-attachments/assets/f6096c42-64e8-47f2-b289-cc31530afcc2)
 
 
