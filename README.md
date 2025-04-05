@@ -123,9 +123,9 @@ ORDER BY cancel_year ASC
 
 
 **Business Recommendations:**
-1. Improve Onboarding & Product Education: Since the most common cancellation reasons are "Expensive" and "Not Useful," we should enhance user onboarding and provide better educational resources early in the subscription lifecycle. Ensuring users fully understand and utilize the product's value could reduce price sensitivity and increase engagement.
+1. Improve Onboarding & Product Education: Since the most common cancellation reasons are **"Expensive"** and **"Not Useful"**, we should enhance user onboarding and provide better educational resources early in the subscription lifecycle. Ensuring users fully understand and utilize the product's value could reduce price sensitivity and increase engagement.
 2. Implement Targeted Retention Offers: For cost-conscious users, we should introduce a retention offer at the beginning of the cancellation process, such as a limited-time discount or extended trial period, to incentivize them to stay.
-3. Competitor Analysis & Market Adaptation: As a significant number of users cite "Switched to Competitor" as a secondary cancellation reason, we should conduct market research to stay competitive, ensuring our product and pricing remain aligned with industry standards.
+3. Competitor Analysis & Market Adaptation: As a significant number of users cite **"Went to a Competitor"** as a secondary cancellation reason, we should conduct market research to stay competitive, ensuring our product and pricing remain aligned with industry standards.
 
 
 **Next Steps:**
