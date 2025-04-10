@@ -118,9 +118,6 @@ ORDER BY cancel_year ASC
 
 **Results:**
 
-![image](https://github.com/user-attachments/assets/f6096c42-64e8-47f2-b289-cc31530afcc2)
-<img width="1100" alt="image" src="https://github.com/user-attachments/assets/f99ff8af-39a0-4b01-9c98-6fb65f58bc5c" />
-
 <img width="1100" alt="image" src="https://github.com/user-attachments/assets/84711d42-4348-41b7-a321-398d7e8a109c" />
 
 
